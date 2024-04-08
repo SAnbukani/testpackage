@@ -3,9 +3,10 @@
     "description": "ttipl infrastructure package",
     "type": "project",
     "license": "MIT",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Ttipl\\Infrastructure\\": "packages/ttipl/infrastructure/src"
+            "Ttipl\\Infrastructure\\": "src/"
         }
     },
     "authors": [
